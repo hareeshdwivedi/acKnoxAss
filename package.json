@@ -1,0 +1,57 @@
+{
+  "name": "cytoscape-example",
+  "version": "0.1.0",
+  "homepage": "https://dhana6795.github.io/AccuknoxDemo/",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/lab": "^5.0.0-alpha.137",
+    "@mui/material": "^5.14.2",
+    "@mui/x-data-grid": "^6.10.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "cytoscape": "^3.25.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-expand-collapse": "^4.1.0",
+    "cytoscape-fcose": "^2.2.0",
+    "cytoscape-popper": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "tippy.js": "^6.3.7",
+    "web-vitals": "^3.4.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

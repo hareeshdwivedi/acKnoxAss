@@ -1,0 +1,107 @@
+{
+    "nodes": [
+            {
+            "data": {"id": "a", "label": "person", "name":"ceo port sudan"}
+            },
+            {
+            "data": {"id": "b", "label": "person", "name":"chief of ADANG Inc"}
+            },
+            {
+            "data": {"id": "c", "label": "vessel",  "name":"Pirates of caribean"}
+            },
+            {
+            "data": {"id": "d", "label": "vessel", "name":"Atlantice"}
+            },
+            {
+            "data": {"id": "e", "label": "vessel", "name":"Titanic"}
+            },
+            {
+            "data": {"id": "f", "label": "company", "name":"ADANG Inc"}
+            },{
+            "data": {"id": "g", "label": "company", "name":"American Logistics"}
+        },
+        {
+        "data": {"id": "h", "label": "person", "name":"Chief Dhana"}
+        },
+        {
+        "data": {"id": "i", "label": "company", "name":"Princess Cruise"}
+        }
+    ],
+            "edges": [
+            {
+            "data": {
+            "id": "ab",
+                    "source": "a",
+                    "target": "b"
+            },
+            "classes": "i"
+            },
+            {
+            "data": {
+            "id": "cd",
+                    "source": "c",
+                    "target": "d"
+            }
+            },
+            {
+                "data": {
+                "id": "ac",
+                        "source": "a",
+                        "target": "c"
+                }
+                },
+            {
+            "data": {
+            "id": "ef",
+                    "source": "e",
+                    "target": "f"
+            }
+            },
+            {
+            "data": {
+            "id": "ac",
+                    "source": "a",
+                    "target": "d"
+            }
+            },
+            {
+                "data": {
+                "id": "dh",
+                        "source": "d",
+                        "target": "h",
+                        "relationship": " owner of the ship"
+                }
+                },
+            {
+            "data": {
+             "id": "be",
+                    "source": "b",
+                    "target": "e",
+                    "relationship": " owner of the ship"
+                }
+                },
+                {
+                    "data": {
+                     "id": "dg",
+                            "source": "d",
+                            "target": "g",
+                            "relationship": " owner of the ship"
+                        }
+                        },
+                {
+                    "data": {
+                     "id": "gh",
+                            "source": "g",
+                            "target": "h",
+                            "relationship": " owner of the ship"
+                        }
+                        },
+                        {
+                            "data": {
+                             "id": "hi",
+                                    "source": "h",
+                                    "target": "i",
+                                    "relationship": " owner of the ship"
+                                }
+                                }]  
+    }
