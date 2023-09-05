@@ -3,7 +3,7 @@ For the given task that is graph visualization, it is not like some data represe
 
 i've done a simple graph with Grouping options, changing layouts, zoom in and out, dispalying node and edge details. 
 
- [here](https://dhana6795.github.io/AccuknoxDemo/) is the demo
+
 
 # Getting Started with Create React App
 
